@@ -1,8 +1,15 @@
 import './App.css';
+import { useEffect } from 'react';
+import Aos  from 'aos';
 
 function App() {
+
+  useEffect(()=>{
+Aos.init();
+  },[])
+
   return (
-   <h1>hello</h1>
+   <h1 className='text-indigo-600'>hello</h1>
   );
 }
 

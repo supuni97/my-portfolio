@@ -1,6 +1,8 @@
 import './App.css';
 import { useEffect } from 'react';
 import Aos  from 'aos';
+import Header from './components/Header/Header';
+import Footer from './components/Header/Footer/Footer';
 
 function App() {
 
@@ -9,7 +11,11 @@ Aos.init();
   },[])
 
   return (
-   <h1 className='text-indigo-600'>hello</h1>
+    <>
+      <Header/>
+      <main></main>
+      <Footer/>
+    </>
   );
 }
 

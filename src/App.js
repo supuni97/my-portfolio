@@ -1,20 +1,22 @@
 import './App.css';
 import { useEffect } from 'react';
-import Aos  from 'aos';
+import Aos from 'aos';
 import Header from './components/Header/Header';
 import Footer from './components/Header/Footer/Footer';
-
+import Hero from './components/UI/Hero';
 function App() {
 
-  useEffect(()=>{
-Aos.init();
-  },[])
+  useEffect(() => {
+    Aos.init();
+  }, [])
 
   return (
     <>
-      <Header/>
-      <main></main>
-      <Footer/>
+      <Header />
+      <main>
+        <Hero/>
+      </main>
+      <Footer />
     </>
   );
 }

@@ -36,16 +36,16 @@ const portfolios = [
     technologies: ["React js","Node js", "Mongo DB", "Unity"],
     siteUrl: "#",
   },
-  {
-    id: "04",
-    imgUrl: portfolioImg04,
-    category: "Web",
-    title: "E-Commerce Website",
-    description:
-      "An e-commerce website enabling sellers to manage all tasks within a single platform.",
-    technologies: ["Java Script", "SQL", "PHP"],
-    siteUrl: "#",
-  },
+  // {
+  //   id: "04",
+  //   imgUrl: portfolioImg04,
+  //   category: "Web",
+  //   title: "E-Commerce Website",
+  //   description:
+  //     "An e-commerce website enabling sellers to manage all tasks within a single platform.",
+  //   technologies: ["Java Script", "SQL", "PHP"],
+  //   siteUrl: "#",
+  // },
   {
     id: "05",
     imgUrl: portfolioImg05,

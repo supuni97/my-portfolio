@@ -25,7 +25,7 @@ const portfolio = portfolios.find(portfolio=>portfolio.id===activeID)
       }
       </div>
       <a href={portfolio.siteUrl}>
-      <button className='py-2 px-4 bg-primaryColor  text-white my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300'>Live Site</button>
+      <button className='py-2 px-4 bg-primaryColor  text-white my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300'>Github Repository</button>
       </a>
       </div>
 

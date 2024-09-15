@@ -24,13 +24,18 @@ const Portfolio = () => {
       setPortfolios(data)
     }
 
-    if (selectTab === 'web-design') {
-      const filteredData = data.filter(item => item.category === 'Web Design')
+    if (selectTab === 'web') {
+      const filteredData = data.filter(item => item.category === 'Web')
       setPortfolios(filteredData)
     }
 
-    if (selectTab === 'ux-design') {
-      const filteredData = data.filter(item => item.category === 'Ux')
+    if (selectTab === 'mobile') {
+      const filteredData = data.filter(item => item.category === 'Mobile')
+      setPortfolios(filteredData)
+    }
+
+    if (selectTab === 'ds') {
+      const filteredData = data.filter(item => item.category === 'Ds')
       setPortfolios(filteredData)
     }
 
@@ -45,9 +50,9 @@ const Portfolio = () => {
           </div>
           <div className='flex gap-3'>
             <button onClick={() => setSelectTab('all')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>All</button>
-            <button onClick={() => setSelectTab('web-design')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>Web</button>
-            <button onClick={() => setSelectTab('ux-design')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>Mobile</button>
-            <button onClick={() => setSelectTab('ux-design')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>Data Science</button>
+            <button onClick={() => setSelectTab('web')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>Web</button>
+            <button onClick={() => setSelectTab('mobile')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>Mobile</button>
+            <button onClick={() => setSelectTab('ds')} className='py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]'>Data Science</button>
           </div>
         </div>
 

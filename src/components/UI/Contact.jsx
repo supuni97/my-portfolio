@@ -6,32 +6,26 @@ const Contact = () => {
         <div className='container'>
         <h2 className='font-[700] text-headingColor text-[2.5rem] mb-8'>Get in touch</h2>
         
-        <div className='md:flex justify-between items-center'>
-        <div className='w-full md:w-1/2 h-[300px] sm:h-[450px]'>
-        <iframe 
-        title='google-maps' 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.42984403517!2d80.62578144999999!3d7.294545300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1725890895756!5m2!1sen!2slk" 
-        className='border-0 w-full h-full'
-        allowFullScreen="" 
-        loading="lazy" 
-        referrerPolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <div className='md:flex justify-center items-center'>
         <div className='w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8'>
-        <form className='w-full'>
+        <div className='w-full'>
         <div className='mb-5'>
-        <input type='text' placeholder='Enter your name' className='w-full p-3 focus:outline-none rounded-[]' />
+        <h3 className='text-[1.2rem] font-[600]'>Name:</h3>
+        <p className='text-[1rem]'>Supuni Sithara Bandara</p>
         </div>
         <div className='mb-5'>
-        <input type='email' placeholder='Enter your email' className='w-full p-3 focus:outline-none rounded-[]' />
+        <h3 className='text-[1.2rem] font-[600]'>Address:</h3>
+        <p className='text-[1rem]'>Sithara, Ethulgama, Thalathuoya, Kandy, Sri Lanka</p>
         </div>
         <div className='mb-5'>
-        <input type='text' placeholder='Subject' className='w-full p-3 focus:outline-none rounded-[]' />
+        <h3 className='text-[1.2rem] font-[600]'>Phone:</h3>
+        <p className='text-[1rem]'>+94 719 153 533</p>
         </div>
         <div className='mb-5'>
-        <textarea type='text' rows={3} placeholder='Write your message' className='w-full p-3 focus:outline-none rounded-[]' />
+        <h3 className='text-[1.2rem] font-[600]'>Email:</h3>
+        <p className='text-[1rem]'>sitharabandara1997@gmail.com</p>
         </div>
-        <button className='w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150'>Send Message</button>
-        </form>
+        </div>
         </div>
         </div>
         </div>

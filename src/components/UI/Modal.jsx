@@ -34,7 +34,7 @@ const Modal = ({ activeID, setShowModal }) => {
 
           <div className="mt-4 flex items-center gap-2 flex-wrap">
             <h4 className="text-[16px] text-headingColor font-[700]">
-              Technologies:
+              Tools & Technologies:
             </h4>
             {portfolio.technologies.map((item, index) => (
               <span

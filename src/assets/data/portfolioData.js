@@ -4,6 +4,8 @@ import portfolioImg03 from "../images/portfolio-03.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
+import portfolioImg07 from "../images/portfolio-07.jpg";
+import portfolioImg08 from "../images/portfolio-08.jpeg";
 
 const portfolios = [
   {
@@ -34,7 +36,7 @@ const portfolios = [
     description:
       "Fun Physics is an innovative educational gaming platform aimed at revolutionizing physics learning for Sri Lankan students which  offers an engaging, interactive, and effective learning experience for students, blending educational content with gamification to foster interest and improve academic performance in physics.",
     technologies: ["React js", "Node js", "Mongo DB", "Unity"],
-    githubUrl: "https://github.com/supuni97/Fun-Physics-WebGL",
+    githubUrl: "https://github.com/supuni97/Fun-Physics",
   },
   {
     id: "04",
@@ -66,6 +68,26 @@ const portfolios = [
       "A simple business dashboard and a report for a super store that is created using power BI.",
     technologies: ["Power BI"],
     githubUrl: "https://github.com/supuni97/Superstore-Dashboard",
+  },
+  {
+    id: "07",
+    imgUrl: portfolioImg07,
+    category: "Web",
+    title: "Weather App",
+    description:
+      "A dynamic weather app that integrates the OpenWeatherMap API to display real-time weather details, including temperature, conditions, humidity, and wind speed. Users can search for any city using a search box to retrieve up-to-date weather information seamlessly via JavaScript.",
+    technologies: ["Html", "CSS", "JavScript"],
+    githubUrl: "https://github.com/supuni97/Weather-App",
+  },
+  {
+    id: "08",
+    imgUrl: portfolioImg08,
+    category: "Ds",
+    title: "A PowerBI Dashboard for Beauty Supply Chain Management",
+    description:
+      "A Power BI dashboard integrated with advanced machine learning models to enhance business intelligence. The project focuses on demand forecasting, inventory optimization, and supplier performance monitoring within the beauty supply chain, delivering deeper insights for smarter decision-making.",
+    technologies: ["Python", "Power BI", "Jupyter Notebook"],
+    githubUrl: "https://github.com/supuni97/Weather-App",
   },
 ];
 

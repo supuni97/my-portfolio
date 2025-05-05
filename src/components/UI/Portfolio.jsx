@@ -51,25 +51,41 @@ const Portfolio = () => {
           <div className="flex gap-3">
             <button
               onClick={() => setSelectTab("all")}
-              className="py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]"
+              className={`py-2 px-4 border border-solid rounded-[8px] ${
+                selectTab === "all"
+                  ? "bg-primaryColor text-white border-primaryColor"
+                  : "text-smallTextColor border-smallTextColor"
+              }`}
             >
               All
             </button>
             <button
               onClick={() => setSelectTab("web")}
-              className="py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]"
+              className={`py-2 px-4 border border-solid rounded-[8px] ${
+                selectTab === "web"
+                  ? "bg-primaryColor text-white border-primaryColor"
+                  : "text-smallTextColor border-smallTextColor"
+              }`}
             >
               Web
             </button>
             <button
               onClick={() => setSelectTab("mobile")}
-              className="py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]"
+              className={`py-2 px-4 border border-solid rounded-[8px] ${
+                selectTab === "mobile"
+                  ? "bg-primaryColor text-white border-primaryColor"
+                  : "text-smallTextColor border-smallTextColor"
+              }`}
             >
               Mobile
             </button>
             <button
               onClick={() => setSelectTab("ds")}
-              className="py-2 px-4 text-smallTextColor border border-solid border-smallTextColor rounded-[8px]"
+              className={`py-2 px-4 border border-solid rounded-[8px] ${
+                selectTab === "ds"
+                  ? "bg-primaryColor text-white border-primaryColor"
+                  : "text-smallTextColor border-smallTextColor"
+              }`}
             >
               Data Science
             </button>

@@ -1,0 +1,10 @@
+# Don't rewrite requests for assets (JS, CSS, images, etc.)
+/static/*  /static/:splat   200
+/*.js      /:splat          200
+/*.css     /:splat          200
+/*.png     /:splat          200
+/*.ico     /:splat          200
+/manifest.json /manifest.json 200
+
+# Redirect everything else to index.html
+/* /index.html 200
